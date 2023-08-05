@@ -1,4 +1,5 @@
 ---
+article: false
 title: 代码小玩具
 index: false
 icon: person-chalkboard

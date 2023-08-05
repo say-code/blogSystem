@@ -23,13 +23,15 @@ export default hopeTheme({
 
   darkmode:"toggle",
 
+  headerDepth: 5,
+
   // navbar
   navbar,
 
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "<a href=\"https://beian.miit.gov.cn/\">浙ICP备2021014231号</a>",
 
   displayFooter: true,
 

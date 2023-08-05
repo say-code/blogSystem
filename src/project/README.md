@@ -1,4 +1,5 @@
 ---
+article: false
 title: 项目展示
 index: false
 icon: laptop-code

@@ -4,7 +4,8 @@ import { HeadersPluginOptions } from "@mdit-vue/plugin-headers"
 
 
 const headersPluginOptions: HeadersPluginOptions= {
-  level: [2,3]
+  level: [2,5],
+  shouldAllowNested: true
 }
 
 export default defineUserConfig({
@@ -17,6 +18,7 @@ export default defineUserConfig({
   theme,
   markdown: {
     headers: headersPluginOptions
+
   }
 
   // Enable it with pwa

@@ -24,16 +24,30 @@ export default sidebar({
   ],
   "/docs/": [
     "",
-    // "jvm",
     {
       text: "JVM",
+      collapsible: true,
       prefix: "jvm/",
-      link: "jvm/",
       children: [
-        "jvm-简述",
-        "jvm-内存与垃圾回收篇"
+        "导航",
+        "简述",
+        {
+          text: "内存与垃圾回收篇",
+          collapsible: true,
+          children:[
+            "内存与垃圾回收篇-类加载子系统",
+            "内存与垃圾回收篇-运行时数据区",
+          ]
+        }
+
       ],
     },
+    {
+      text: "环境配置",
+      collapsible: true,
+      prefix: "environment/",
+      children: "structure"
+    }
   ]
 
 });
