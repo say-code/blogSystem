@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logo: "/head.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "say-code",
 
   docsDir: "src",
 
@@ -37,7 +37,7 @@ export default hopeTheme({
 
   blog: {
     description: "java全栈工程师",
-    intro: "/intro.html",
+    intro: "about/intro.html",
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",
@@ -84,15 +84,16 @@ export default hopeTheme({
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
+  editLink: false,
 
   plugins: {
     blog: true,
 
-    comment: {
-      // You should generate and use your own comment service
-      provider: "Waline",
-      serverURL: "https://waline-comment.vuejs.press",
-    },
+    // comment: {
+    //   // You should generate and use your own comment service
+    //   provider: "Waline",
+    //   serverURL: "https://waline-comment.vuejs.press",
+    // },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {

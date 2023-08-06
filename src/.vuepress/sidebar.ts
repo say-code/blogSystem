@@ -10,13 +10,7 @@ export default sidebar({
       link: "demo/",
       children: "structure",
     },
-    {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
-      children: "structure",
-    },
-    "intro",
+    "about/intro",
     "slides",
   ],
   "/project/": [
@@ -48,6 +42,7 @@ export default sidebar({
       prefix: "environment/",
       children: "structure"
     }
-  ]
+  ],
+  "/about/":"structure"
 
 });
