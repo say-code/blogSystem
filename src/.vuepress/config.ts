@@ -19,7 +19,10 @@ export default defineUserConfig({
   markdown: {
     headers: headersPluginOptions
 
-  }
+  },
+  head: [
+      ['meta',{ name: 'baidu-site-verification', content: 'codeva-LhArYjBL03' }]
+  ]
 
   // Enable it with pwa
   // shouldPrefetch: false,
