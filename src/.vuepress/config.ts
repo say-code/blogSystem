@@ -4,7 +4,7 @@ import { HeadersPluginOptions } from "@mdit-vue/plugin-headers"
 
 
 const headersPluginOptions: HeadersPluginOptions= {
-  level: [2,5],
+  level: [2,3,4,5],
   shouldAllowNested: true
 }
 
